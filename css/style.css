@@ -10,6 +10,13 @@ body {
 /*--------------
  influencer details
 --------------- */
+
+.inflence-product-heading{
+  font-size: 28px;
+  margin-top: 87px;
+  margin-left: 120px;
+}
+
 .divison {
   margin-left: 130px;
   display: flex;
@@ -26,6 +33,9 @@ body {
   font-size: 52px;
   font-weight: 600;
 }
+.influencer-heading:hover .divison.camera-diagram {
+  transform: translate(750px, -100px);
+}
 .button-task {
   background-color: rgba(224, 44, 109, 1);
   width: 196px;
@@ -33,8 +43,8 @@ body {
   border-radius: 20px;
   color: rgba(255, 255, 255, 1);
 }
-.fa-long-arrow-alt-right.space{
-    margin-left: 10px;
+.fa-long-arrow-alt-right.space {
+  margin-left: 10px;
 }
 .influencer-diagram {
   width: 50%;
@@ -52,11 +62,14 @@ popular collection
   align-items: center;
   flex-direction: column;
 }
+.popular-collection-title {
+  font-size: 28px;
+}
 .instruments {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 15px;
-  grid-row-gap: 15px;
+  grid-row-gap: 25px;
   margin-bottom: 40px;
 }
 .instrument {
@@ -64,6 +77,7 @@ popular collection
   width: 329px;
   height: 476px;
   padding: 15px;
+  margin-left: 20px;
 
   /* padding: 30px; */
 }
@@ -85,6 +99,10 @@ popular collection
   margin-top: 0px;
   margin-bottom: 0px;
 }
+.instrument-rating {
+  margin-left: 15px;
+  margin-top: 10px;
+}
 .fa-star.filled-star {
   color: yellow;
 }
@@ -94,11 +112,12 @@ popular collection
 .instrument-details {
   color: rgba(120, 120, 133, 1);
   font-weight: 700;
+  margin-left: 15px;
 }
 #more-instrument {
   color: rgba(224, 44, 109, 0.87);
   float: right;
-  margin-right: 30px;
+  margin-right: 15x;
   font-size: 16px;
   font-weight: 700;
 }
@@ -112,15 +131,15 @@ footer section
   color: white;
   text-align: center;
 }
-.footer-header{
-    padding-top: 20px;
-    margin-top: 20px;
+.footer-header {
+  padding-top: 20px;
+  margin-top: 20px;
 }
 .social-icons .icons-background {
   text-align: center;
+  justify-content: center;
 }
 .icons-background {
- 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -134,5 +153,4 @@ footer section
   width: 32px;
   border-radius: 50%;
   background-color: rgb(67, 105, 105);
-  
 }
