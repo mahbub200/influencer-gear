@@ -1,63 +1,93 @@
 /* font awesome */
-@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&family=Poppins:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script&family=Poppins:wght@500&display=swap");
 
 /* common styles  or utilities*/
-body{
-  background-color: #AAAAAA;
-  font-family: 'Poppins', sans-serif;
+body {
+  background-color: #aaaaaa;
+  font-family: "Poppins", sans-serif;
+}
+/*--------------
+ influencer details
+--------------- */
+.divison {
+  margin-left: 130px;
+  display: flex;
+
+  margin-bottom: 50px;
+}
+.influencer-details {
+  /* width: 2000px; */
+  width: 50%;
+
+  margin-right: 130px;
+}
+
+.influencer-heading {
+  font-size: 52px;
+  font-weight: 600;
+}
+.button-task {
+  background-color: rgba(224, 44, 109, 1);
+  width: 196px;
+  height: 44px;
+  border-radius: 20px;
+  color: rgba(255, 255, 255, 1);
+}
+.influencer-diagram {
+  width: 50%;
+  /* margin-left: 130px; */
+}
+.inflencer-diagram img {
+  height: 414px;
+  width: 400px;
 }
 /*-------------------------- 
 popular collection
 ----------------------------- */
-.container{
-    
-   display: flex;
+.container {
+  display: flex;
   align-items: center;
   flex-direction: column;
-   
 }
-.instruments{
+.instruments {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+}
+.instrument {
+  background-color: rgba(255, 255, 255, 1);
+  width: 329px;
+  height: 476px;
+  padding: 15px;
 
-display: grid;
-grid-template-columns: repeat(3,1fr);
-grid-column-gap: 15px;
-grid-row-gap: 15px;
+  /* padding: 30px; */
 }
-.instrument{
-    background-color:rgba(255, 255, 255, 1);
-    width: 329px;
-    height :476px;
-    padding: 15px;
-   
-   
-    /* padding: 30px; */
-
+.instrument img {
+  width: 300px;
+  height: 256px;
+  margin-left: 14px;
+  margin-top: 17px;
 }
-.instrument img{
-    width :300px;
-    height: 256px;
-    margin-left: 14px;
-    margin-top: 17px;
-    
-
+.instrument-title {
+  font-size: 28px;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-bottom: 0px;
 }
-.instrument-title{
-    font-size: 28px;
-    margin-top: 15px;
-    margin-left: 15px;
-    margin-bottom: 0px;
+.instrument-price {
+  /* margin-top: -35px; */
+  margin-left: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
-.instrument-price{
-    /* margin-top: -35px; */
-    margin-left: 15px;
-    margin-top:0px;
-    margin-bottom: 0px;
-
+.fa-star.filled-star {
+  color: yellow;
 }
-.fa-star.filled-star{
-    color:yellow;
+.fa-star.empty {
+    color:rgba(120, 120, 133, 1);
   }
-  .instrument-details{
-      color: rgba(120, 120, 133, 1);
-      font-weight: 700;
-  }
+.instrument-details {
+  color: rgba(120, 120, 133, 1);
+  font-weight: 700;
+}
