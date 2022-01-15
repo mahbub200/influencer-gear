@@ -11,7 +11,7 @@ body {
  influencer details
 --------------- */
 
-.inflence-product-heading{
+.inflence-product-heading {
   font-size: 28px;
   margin-top: 87px;
   margin-left: 120px;
@@ -32,9 +32,13 @@ body {
 .influencer-heading {
   font-size: 52px;
   font-weight: 600;
+  transition: transform 0.2s;
 }
-.influencer-heading:hover .divison.camera-diagram {
-  transform: translate(750px, -100px);
+.influencer-heading:hover {
+  transform: scale(.5) rotate(360deg);
+  transition: 2s linear;
+  /* transform-origin: top right;  */
+
 }
 .button-task {
   background-color: rgba(224, 44, 109, 1);
@@ -126,11 +130,11 @@ popular collection
 optional section
 ---------------- */
 
-.quality-products{
-width: 50%;
-margin-left: 100px;
+.quality-products {
+  width: 50%;
+  margin-left: 100px;
 }
-.quality-products-diagram{
+.quality-products-diagram {
   width: 50%;
 }
 /* ------------
