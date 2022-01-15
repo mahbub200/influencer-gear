@@ -121,6 +121,18 @@ popular collection
   font-size: 16px;
   font-weight: 700;
 }
+
+/* -------------
+optional section
+---------------- */
+
+.quality-products{
+width: 50%;
+margin-left: 100px;
+}
+.quality-products-diagram{
+  width: 50%;
+}
 /* ------------
 footer section
 -------------= */
