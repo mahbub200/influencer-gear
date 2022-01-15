@@ -5,6 +5,7 @@
 body {
   background-color: #aaaaaa;
   font-family: "Poppins", sans-serif;
+  margin: 0px;
 }
 /*--------------
  influencer details
@@ -16,7 +17,6 @@ body {
   margin-bottom: 50px;
 }
 .influencer-details {
-  /* width: 2000px; */
   width: 50%;
 
   margin-right: 130px;
@@ -32,6 +32,9 @@ body {
   height: 44px;
   border-radius: 20px;
   color: rgba(255, 255, 255, 1);
+}
+.fa-long-arrow-alt-right.space{
+    margin-left: 10px;
 }
 .influencer-diagram {
   width: 50%;
@@ -54,6 +57,7 @@ popular collection
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 15px;
   grid-row-gap: 15px;
+  margin-bottom: 40px;
 }
 .instrument {
   background-color: rgba(255, 255, 255, 1);
@@ -85,9 +89,50 @@ popular collection
   color: yellow;
 }
 .fa-star.empty {
-    color:rgba(120, 120, 133, 1);
-  }
+  color: rgba(120, 120, 133, 1);
+}
 .instrument-details {
   color: rgba(120, 120, 133, 1);
   font-weight: 700;
+}
+#more-instrument {
+  color: rgba(224, 44, 109, 0.87);
+  float: right;
+  margin-right: 30px;
+  font-size: 16px;
+  font-weight: 700;
+}
+/* ------------
+footer section
+-------------= */
+.footer-info {
+  height: 240px;
+  width: 100%;
+  background-color: rgba(10, 8, 38, 1);
+  color: white;
+  text-align: center;
+}
+.footer-header{
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.social-icons .icons-background {
+  text-align: center;
+}
+.icons-background {
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons-background li {
+  list-style: none;
+  margin-right: 30px;
+}
+.fab.icons-background {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  background-color: rgb(67, 105, 105);
+  
 }
