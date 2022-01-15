@@ -35,10 +35,9 @@ body {
   transition: transform 0.2s;
 }
 .influencer-heading:hover {
-  transform: scale(.5) rotate(360deg);
+  transform: scale(0.5) rotate(360deg);
   transition: 2s linear;
   /* transform-origin: top right;  */
-
 }
 .button-task {
   background-color: rgba(224, 44, 109, 1);
@@ -169,4 +168,62 @@ footer section
   width: 32px;
   border-radius: 50%;
   background-color: rgb(67, 105, 105);
+}
+
+/*-------------
+ media Queires
+------------- */
+
+/* mobile devices */
+@media only screen and (max-width: 688px) {
+  .divison {
+    display: block;
+  }
+  .instruments {
+    /* background-color: red; */
+    display: grid;
+
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .instrument {
+    /* width: 100%; */
+    flex-direction: column;
+  }
+  .influencer-heading {
+    font-size: 30px;
+  }
+  .inflencer-diagram img {
+    width: 200px;
+  }
+  .quality-products-diagram {
+    margin-top: 20px;
+    margin-left: 0px;
+    /* margin: auto; */
+  }
+}
+/* ---------
+tablet devices
+--------- */
+@media only screen and (min-width: 688px) and (max-width:992px) {
+  .divison {
+    display: block;
+  }
+  .instruments {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #more-instrument {
+    color: rgba(224, 44, 109, 0.87);
+    float: left;
+    margin-left: 40%;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .quality-products-diagram {
+    margin-top: 20px;
+    margin-left: 0px;
+    /* margin: auto; */
+  }
+  
 }
